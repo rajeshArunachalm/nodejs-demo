@@ -2,7 +2,7 @@ FROM node:14.18.0
 
 COPY package*.json ./
 
-WORKDIR /opt/server/backend-test
+WORKDIR /opt/server/node_crud
 
 COPY . .
 
